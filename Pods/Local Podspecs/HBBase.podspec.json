@@ -1,0 +1,28 @@
+{
+  "name": "HBBase",
+  "version": "0.1.0",
+  "summary": "A short description of HBBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yahibo/HBBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yahibo": "yahibo@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yahibo/HBBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HBBase/Classes/**/*",
+  "resource_bundles": {
+    "HBBase": [
+      "HBBase/Assets/**/*.*",
+      "HBBase/Resources/**/*.*"
+    ]
+  }
+}
