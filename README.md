@@ -9,6 +9,7 @@ https://github.com/Lede-Inc/LDBusMediator
 
 
 组件化：
+
 >1、模块管理：cocoapods+router+解耦工具
 >2、基础库：三方库+工具库
 >3、业务库：主页+消息+我的
