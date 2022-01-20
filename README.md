@@ -16,7 +16,7 @@ https://github.com/Lede-Inc/LDBusMediator
 
 可抽出模块：账户中心、意见反馈、商品详情
 
-一、创建应用HBApp
+## 一、创建应用HBApp
 
 1、Git账号设置
 git config --global user.name yahibo
@@ -45,14 +45,14 @@ git tag -d 1.0.0 //删除本地
 git push origin :refs/tags/1.0.0 //删除远端
 
 
-二、创建Git私有仓库
+## 二、创建Git私有仓库
 
 用来管理其他库的`spec`文件，通过该仓库找到对应的库地址，在`podfile`文件中直接使用`pod 'HBBase’` 引入即可。
 Git 仓库地址：
 https://github.com/swift-temp-app/hb-base-repo.git
 git@github.com:swift-temp-app/hb-base-repo.git
 
-三、创建模块
+## 三、创建模块
 
 ```
 pod lib create 模块名称 --template-url=https://github.com/swift-temp-app/hb-pod-template.git
@@ -87,12 +87,12 @@ pod repo push swift-temp-app *.podspec --allow-warnings
 
 
 
-### 四、组件通信
+## 四、组件通信
 
 public open的区别
 
 
-### 五、遇到的问题
+## 五、遇到的问题
 
 问题1：
 “[!] [Xcodeproj] Generated duplicate UUIDs:”
